@@ -43,7 +43,7 @@ function AllStudent() {
             <th scope="col">Student Year</th>
             <th scope="col">Student Semester</th>
             <th scope="col">Student GPA</th>
-            <th scope="col">Actions</th>
+
           </tr>
         </thead>
         <tbody>
@@ -61,11 +61,13 @@ function AllStudent() {
                 <td>{student.studentGPA}</td>
                 <td>
                   <Link to={`/update/${student._id}`}>
-                    <button className="btn btn-warning mr-2">Update</button>
+                    <button className="btn btn-warning mr-2 mb-3">Update</button>
                   </Link>
-                  
+                </td>
+                <td>
+
                   <button
-                    className="btn btn-danger mr-2"
+                    className="btn btn-danger mr-2 mb-3"
                     onClick={() => deleteStudent(student._id)}
                   >
                     Delete

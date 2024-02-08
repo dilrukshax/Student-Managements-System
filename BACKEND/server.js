@@ -1,3 +1,5 @@
+import  Path  from 'Path';
+
 const express = require("express");
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -5,6 +7,16 @@ const cors = require('cors');
 const dotenv = require("dotenv");
 const app = express();
 require('dotenv').config();
+
+const__dirname = Path.resolve();
+
+app.use(express.static(Path.join(__dirname, '/frontend/dist')));
+
+app.get('*', (req, res) => {
+    res.sendFile
+    (Path.resolve(__dirname, 'frontend', 'dist', 'index.html'));
+});
+
 
 
 const PORT = process.env.PORT || 8070;
