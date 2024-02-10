@@ -19,9 +19,18 @@ This project is a basic student management system that allows users to add, upda
 ## Features
 
 - Add new students with details such as name, age, email, phone, address, department, year, semester, and GPA.
+![Screenshot_10-2-2024_11248_localhost](https://github.com/dilrukshax/Student-Managements-System/assets/100220079/dc3b83d9-6d0c-4c62-ac8f-d3f645121f7b)
+
 - View a list of all students with their details.
+![Screenshot_10-2-2024_111031_localhost](https://github.com/dilrukshax/Student-Managements-System/assets/100220079/5069d58d-a5b3-4689-a8ce-b0e9a7eecb13)
+
 - Update existing student records.
+
+![Screenshot_10-2-2024_111052_localhost](https://github.com/dilrukshax/Student-Managements-System/assets/100220079/393daa7e-c928-4ca8-88b0-1e45eaa9f5f0)
+
 - Delete student records.
+![Screenshot 2024-02-10 111123](https://github.com/dilrukshax/Student-Managements-System/assets/100220079/55e5e8e9-fd5b-45c6-afce-8844eeb1ba76)
+
 
 ## Prerequisites
 

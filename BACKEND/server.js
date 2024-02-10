@@ -1,4 +1,4 @@
-import  path  from 'path';
+
 
 const express = require("express");
 const mongoose = require('mongoose');
@@ -8,14 +8,7 @@ const dotenv = require("dotenv");
 const app = express();
 require('dotenv').config();
 
-const__dirname = path.resolve();
 
-app.use(express.static(path.join(__dirname, '/frontend/dist')));
-
-app.get('*', (req, res) => {
-    res.sendFile
-    (path.resolve(__dirname, 'frontend', 'dist', 'index.html'));
-});
 
 
 
